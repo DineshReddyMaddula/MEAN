@@ -9,7 +9,9 @@ mongoose.connection.on('connected',function () {
 mongoose.connection.on('error',function () {
     console.log("Something went wrong");
 });
-
+app.get('/',function () {
+    
+})
 app.listen(8080,function () {
     console.log("Server Started");
 });
