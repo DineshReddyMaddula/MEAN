@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/DineshReddyMaddula/MEAN/issues"
   },
-  "homepage": "https://github.com/DineshReddyMaddula/MEAN#readme"
+  "homepage": "https://github.com/DineshReddyMaddula/MEAN#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7",
+    "nodemon": "^1.11.0"
+  }
 }
